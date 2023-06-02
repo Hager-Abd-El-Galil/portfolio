@@ -43,7 +43,7 @@ export function About(){
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
 
-          <p>Proficient in Java, Python, and JavaScript, with extensive Experience Working with React and Angular Frameworks. Strong background in Agile Development Methodologies and Automated Testing, as well as Excellent problem-solving and communication skills.</p>
+          <p>Proficient in JavaScript, Python, and Java, with extensive Experience Working with React Js and Angular Frameworks. Strong background in Agile Development Methodologies and Automated Testing, as well as Excellent problem-solving, communication skills and time management.</p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={0.7 * 1000}>
