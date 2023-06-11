@@ -15,6 +15,7 @@ export const Container = styled.section`
 
   .projects{
     display: grid;
+    flex-wrap: wrap;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     gap: 2rem;
@@ -56,8 +57,14 @@ export const Container = styled.section`
           width: 2.6rem;
         }
       }
+      .proj-title{
+        display: flex;
+        gap: 1.5rem;
+        align-items: center;
+        color: white;
+        font-size: 2rem;
+      }
 
-      
       h3{
         margin-bottom: 2rem;
       }

@@ -44,12 +44,12 @@ export const Container = styled.section`
     letter-spacing: 0.1rem;
     font-weight: 500;
   }
-  
-  
+
+
 
   .about-image{
     text-align: center;
-    margin: 15rem 0rem;
+    margin: 15rem 30rem;
    img{
      margin-top: 2rem;
      width: 100%;
@@ -65,7 +65,7 @@ export const Container = styled.section`
     width: 50%;
     height: 100%;
   }
-  
+
   .cubespinner {
     animation-name: spincube;
     animation-timing-function: ease-in-out;
@@ -74,7 +74,7 @@ export const Container = styled.section`
     transform-style: preserve-3d;
     transform-origin: 100px 100px 0;
     margin-left: calc(50% - 100px);
-  
+
     div {
       position: absolute;
       width: 200px;
@@ -88,7 +88,7 @@ export const Container = styled.section`
       align-items: center;
       box-shadow: 0 0 20px 0px lightyellow;
     }
-  
+
     .face1 {
       transform: translateZ(100px);
       color: #dd0031;
@@ -114,7 +114,7 @@ export const Container = styled.section`
       color: #ec4d28;
     }
   }
-  
+
   @keyframes spincube {
     from,
     to {
@@ -146,7 +146,7 @@ export const Container = styled.section`
       width: 50%;
       height: 100%;
     }
-    
+
     .cubespinner {
       animation-name: spincube;
       animation-timing-function: ease-in-out;
@@ -155,7 +155,7 @@ export const Container = styled.section`
       transform-style: preserve-3d;
       transform-origin: 100px 100px 0;
       margin-left: calc(50% - 100px);
-    
+
       div {
         position: absolute;
         width: 200px;
@@ -169,7 +169,7 @@ export const Container = styled.section`
         align-items: center;
         box-shadow: 0 0 20px 0px lightyellow;
       }
-    
+
       .face1 {
         transform: translateZ(100px);
         color: #dd0031;
@@ -195,7 +195,7 @@ export const Container = styled.section`
         color: #ec4d28;
       }
     }
-    
+
     @keyframes spincube {
       from,
       to {
@@ -234,7 +234,7 @@ export const Container = styled.section`
       width: 50%;
       height: 100%;
     }
-    
+
     .cubespinner {
       animation-name: spincube;
       animation-timing-function: ease-in-out;
@@ -243,7 +243,7 @@ export const Container = styled.section`
       transform-style: preserve-3d;
       transform-origin: 100px 100px 0;
       margin-left: calc(50% - 100px);
-    
+
       div {
         position: absolute;
         width: 200px;
@@ -257,7 +257,7 @@ export const Container = styled.section`
         align-items: center;
         box-shadow: 0 0 20px 0px lightyellow;
       }
-    
+
       .face1 {
         transform: translateZ(100px);
         color: #dd0031;
@@ -283,7 +283,7 @@ export const Container = styled.section`
         color: #ec4d28;
       }
     }
-    
+
     @keyframes spincube {
       from,
       to {
@@ -305,7 +305,7 @@ export const Container = styled.section`
         transform: rotateX(90deg);
       }
     }
-    
+
   }
 
 `

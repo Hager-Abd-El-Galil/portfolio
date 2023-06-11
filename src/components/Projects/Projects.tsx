@@ -9,10 +9,40 @@ export function Projects(){
       <h2>PROJECTS</h2>
 
       <div className="projects text-start">
+      <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <div className="proj-title">
+                <img src="./images/projects/bloomsy.gif" aria-hidden alt="chat app" width="50px" height="50px" style={{borderRadius:"50%"}}/>
+                <div className="fs-2 text-white">Bloomsy-Plants Store</div>
+              </div>
+              <div className="project-links">
+                <a href="https://github.com/orgs/Bloomsy-Plants-Store/repositories" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="GitHub"/>
+                </a>
+                <a href="https://bloomsy-168d4.web.app/" target="_blank" rel="noreferrer">
+                  <img src={externalLinkIcon} alt="Visitar site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <p>Bloomsy is a Stunning Plants Store, an E-Commerce Platform that offers a wide variety of Indoor and Outdoor Plants. It is dedicated to providing Plant enthusiasts with a Seamless Shopping Experience Through its User-Friendly app.</p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Express JS</li>
+                <li>Node JS</li>
+                <li>Angular Framework</li>
+                <li>Bootstrap</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <div className="proj-title d-flex gap-4 align-items-center">
+              <div className="proj-title">
                 <img src="./images/projects/astrocloud.gif" aria-hidden alt="astrocloud" width="50px"/>
                 <div className="fs-2 text-white">AstroCloud</div>
               </div>
@@ -36,11 +66,11 @@ export function Projects(){
             </footer>
           </div>
         </ScrollAnimation>
-        
+
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <div className="proj-title d-flex gap-2 align-items-center">
+              <div className="proj-title">
                 <img src="./images/projects/tic-tac-toe.gif" aria-hidden alt="tic tac toe game" width="50px" height="50px" style={{borderRadius:"50%",transform:"scale(1.5)"}}/>
                 <div className="fs-2 text-white">Tic Tac Toe Game</div>
               </div>
@@ -55,7 +85,7 @@ export function Projects(){
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Angular</li>
+                <li>Angular Framework</li>
                 <li>Bootstrap</li>
               </ul>
             </footer>
@@ -65,7 +95,7 @@ export function Projects(){
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <div className="proj-title d-flex gap-3 align-items-center">
+              <div className="proj-title">
                 <img src="./images/projects/pharmacySystem.gif" aria-hidden alt="pharmacy system" width="50px"/>
                 <div className="fs-2 text-white">Pharmacy System</div>
               </div>
@@ -94,7 +124,7 @@ export function Projects(){
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <div className="proj-title d-flex gap-3 align-items-center">
+              <div className="proj-title">
                 <img src="./images/projects/E-Commerece.gif" aria-hidden alt="E-Commerce" width="75px"/>
                 <div className="fs-2 text-white">RHM E-Commerce</div>
               </div>
@@ -102,9 +132,9 @@ export function Projects(){
                 <a href="https://github.com/RHM-team/RHM-E-Commerce" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="GitHub"/>
                 </a>
-                <a href="https://rhm-e-commerce.web.app/" target="_blank" rel="noreferrer">
+                {/* <a href="https://rhm-e-commerce.web.app/" target="_blank" rel="noreferrer">
                   <img src={externalLinkIcon} alt="Visitar site" />
-                </a>
+                </a> */}
               </div>
             </header>
             <div className="body">
@@ -124,7 +154,7 @@ export function Projects(){
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <div className="proj-title d-flex gap-4 align-items-center">
+              <div className="proj-title">
                 <img src="./images/projects/chatApp.gif" aria-hidden alt="chat app" width="50px" height="50px" style={{borderRadius:"50%"}}/>
                 <div className="fs-2 text-white">Chat Application</div>
               </div>
@@ -154,7 +184,7 @@ export function Projects(){
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <div className="proj-title d-flex gap-4 align-items-center">
+              <div className="proj-title">
                 <img src="./images/projects/rock-paper-scissors.gif" aria-hidden alt="rock-paper-scissors-game" width="50px" height="50px" style={{borderRadius:"50%"}}/>
                 <div className="fs-2 text-white">Rock Paper Scissors Game</div>
               </div>
