@@ -5,7 +5,13 @@ export const Container = styled.section`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
-
+  #about{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
   .hard-skills{
     margin-top: 1.6rem;
     display: flex;
@@ -49,7 +55,7 @@ export const Container = styled.section`
 
   .about-image{
     text-align: center;
-    margin: 15rem 30rem;
+    margin: 15rem 0rem;
    img{
      margin-top: 2rem;
      width: 100%;

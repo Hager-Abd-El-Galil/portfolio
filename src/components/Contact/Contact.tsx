@@ -9,7 +9,7 @@ export function Contact(){
     <Container id="contact">
       <header>
         <h2 className="mb-5">CONTACT ME</h2>
-        <p style={{marginTop: "4rem"}}>If you have seen my potential or want to talk to me, do not hesitate to send me a message.</p>
+        <p style={{marginTop: '2rem'}}>If you have seen my potential or want to talk to me, do not hesitate to send me a message.</p>
       </header>
       <div className="contacts">
         <div>
